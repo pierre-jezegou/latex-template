@@ -36,9 +36,7 @@ jobs:
       # Run tectonic to compile document
       - name: Compile TeX file
         run: |
-          tectonic charte_internet_asso.tex
-          tectonic charte_internet_particuliers_anglais.tex
-          tectonic charte_internet_particuliers.tex
+          tectonic main.tex
 
       
       - name: Upload artifact
